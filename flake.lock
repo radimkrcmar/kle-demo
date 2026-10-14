@@ -1,0 +1,95 @@
+{
+  "nodes": {
+    "linux-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1792006607,
+        "narHash": "sha256-UmgLKwjNcJtm2kOpWu/5vo56AtBe041hLWVtcotoZtE=",
+        "owner": "radimkrcmar",
+        "repo": "linux",
+        "rev": "a8d9016862780cfb5947c0b7f2be5e2669e225e7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "radimkrcmar",
+        "ref": "zkl",
+        "repo": "linux",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1790652569,
+        "narHash": "sha256-k8Fu4c9Z+4Nh7mUr0cfw++ITQiyEhlWxoJBOkI3tOcQ=",
+        "rev": "b6c8664de9b6cc07fe5666a29f91884ba81197c4",
+        "type": "tarball",
+        "url": "https://releases.nixos.org/nixpkgs/nixpkgs-26.11pre1082290.b6c8664de9b6/nixexprs.tar.zst"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "openssl-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1792007518,
+        "narHash": "sha256-jmmxSlhcst6XyDgmFzDgZSzspDHxffy5ip2BIGtu8tM=",
+        "owner": "radimkrcmar",
+        "repo": "openssl",
+        "rev": "dcfcdaae7a600a3836b305685777affb5e3b4ddf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "radimkrcmar",
+        "ref": "zkl",
+        "repo": "openssl",
+        "type": "github"
+      }
+    },
+    "qemu-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1792006607,
+        "narHash": "sha256-T3Oj+GyLThE72knQlBuhjlSxzaFVf+TvLYX0A6Y1vl8=",
+        "owner": "radimkrcmar",
+        "repo": "qemu",
+        "rev": "25bd942e4bd2eadb21f7551f4a14116fb57031ee",
+        "type": "github"
+      },
+      "original": {
+        "owner": "radimkrcmar",
+        "ref": "zkl",
+        "repo": "qemu",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "linux-src": "linux-src",
+        "nixpkgs": "nixpkgs",
+        "openssl-src": "openssl-src",
+        "qemu-src": "qemu-src",
+        "spec-src": "spec-src"
+      }
+    },
+    "spec-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1791921818,
+        "narHash": "sha256-cJVAtL1F+hGKDjP67sA3pf+sslADhv2eAYdiTI2zGyA=",
+        "owner": "riscv",
+        "repo": "riscv-high-assurance-cryptography",
+        "rev": "c6ada5683d698b97f2fd7c7ccfb5486ccf6ee59d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riscv",
+        "repo": "riscv-high-assurance-cryptography",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
